@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.sub-container {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.main-product-container {
+  padding: 0 4%;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

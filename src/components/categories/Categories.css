@@ -1,0 +1,25 @@
+.main-category-container {
+  padding: 0 4%;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  grid-auto-rows: 200px;
+  margin: auto;
+}
+.sub-category {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.sub-category h1{
+  color: black; 
+  text-decoration: none;
+ 
+}
+
